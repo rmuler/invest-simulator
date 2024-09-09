@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+/* FONTE 1 */
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+/* FONTE 2 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* VARIÁVEIS */
+:root {
+    --font1: "Baskervville SC", serif;
+    --font2: "Poppins", sans-serif;
+}
+
+/* CONFIGURAÇÕES GERAIS */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: var(--font2);
+    font-size: 1em;
+}
+
+h2 {
+    color: #003366;
+}
+
+
+/* HEADER */
+header {
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #003366;
+    color: white;
+}
+
+header h1 {
+    font-family: var(--font1);
+    font-weight: lighter;
+    font-size: 3.5em;
+}
+
+header h2 {
+    font-size: 1.3em;
+}
+
+/* MAIN */
+main {
+    margin: 0px 20px;
+    padding: 0px 20px; 
+}
+
+main h2 {
+    font-size: 1.5em;
+    padding: 10px 0px;
+}
+
+/* CLASS INTRODUCTION */
+main .introduction {
+    padding: 10px 0px;
+    margin: 10px 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.introduction > p {
+    width: 55vw;
+    margin: auto;
+    text-align: justify;
+}
+
+/* CLASS ENTRADA-DADOS */
+main .entrada-dados {
+    margin: auto;
+    text-align: center;
+}
+
+/* CLASS INPUTS */
+main .inputs {
+    padding: 10px 10px;
+    width: 300px;
+    display: inline-block;
+}
+
+/* LEGEND */
+fieldset {
+    box-shadow: 1px solid black;
+}
+fieldset legend {
+    color: #003366;
+    font-weight: bolder;
+}
+
+/* MAIN > INPUT */
+main input {
+    margin: 10px;
+    padding: 5px;
+    background-color: #003366d5;
+    color: white;
+    font-weight: bolder;
+}
+
+/* TABLE */
+table {
+    width: 500px;
+    margin: 20px auto; 
+}
+
+table caption {
+    font-size: 1.3em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+table .resultados {
+    text-align: end;
+}
+
+/* ID EXPLICANDO INVESTIMENTOS */
+main #explicando-investimentos{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+/* LISTA */
+#lista > h2 {
+    text-align: center;
+}
+
+li {
+    width: 55vw;
+    margin: auto;
+    text-align: justify;
+    list-style-type: none;
+}
+
+.orange{
+    color: #FF7043;
+}
+/* FOOTER */
+footer {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: #003366;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: light;
+}

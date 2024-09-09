@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/image/favicon.ico" type="image/x-icon">
+    <title>Invest Simulator</title>
+</head>
+<body>
+    <header>
+        <h1>Invest Simulator</h1>
+        <p>Simulação de investimentos para todos: Simples e acessível</p>
+    </header>
+    <main>
+        <article class="introduction">
+            <h2>Como funciona o Invest Simulator</h2>
+            <p>O Invest Simulator permite simular o desempenho de investimentos como Poupança, Tesouro Prefixado, Tesouro Selic, Tesouro IPCA, CDB, LC, LCI e LCA. O usuário escolhe o tipo de investimento, insere valores e prazos, e a ferramenta projeta a rentabilidade esperada. É uma solução prática e acessível para comparar diferentes opções de investimento, ideal para iniciantes e profissionais.</p>
+        </article>
+        
+        <hr>
+
+        <!-- COLETANDO DADOS DO USUÁRIO -->
+        <article class="entrada-dados">
+            <h2>Simule seu Investimento</h2>
+            <div class="inputs">
+                <fieldset>
+                    <legend>Investimento Inicial</legend>
+                    <input type="number" name="aporteinicial" id="idaporteinicial" placeholder="Insira o aporte inicial">
+                </fieldset>
+            </div>
+            <div class="inputs">
+                <fieldset>
+                    <legend>Aportes Mensais</legend>
+                    <input type="number" name="aportemensal" id="idaportemensal" placeholder="Insira o aporte mensal">
+                </fieldset>
+            </div>
+            <div class="inputs">
+                <fieldset>
+                    <legend>Período de Investimento</legend>
+                    <input type="number" name="tempo" id="idtempo" step="6" placeholder="Insira em meses">
+                </fieldset>
+            </div>
+        </article>
+
+        <!-- SAINDO COM OS RESULTADOS DOS DADOS -->
+        <article>
+            <div>
+                <table>
+                    <caption>Tipos de Investimento</caption>
+                    <tbody>
+                        <tr>
+                            <td>Total Investido</td>
+                            <td class="resultados">R$ 00.00</td>
+                        </tr>
+                        <tr>
+                            <td>Poupança</td>
+                            <td class="resultados">R$ 00.00</td>
+                        </tr>
+                        <tr>
+                            <td>Tesouro Prefixado</td>
+                            <td class="resultados">R$ 00.00</td>
+                        </tr>
+                        <tr>
+                            <td>Tesouro Selic</td>
+                            <td class="resultados">R$ 00.00</td>
+                        </tr>
+                        <tr>
+                            <td>Tesouro IPCA</td>
+                            <td class="resultados">R$ 00.00</td>
+                        </tr>
+                        <tr>
+                            <td>CDB e LC</td>
+                            <td class="resultados">R$ 00.00</td>
+                        </tr>
+                        <tr>
+                            <td>LCI e LCA</td>
+                            <td class="resultados">R$ 00.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </article>
+
+        <!-- EXPLICANDO CADA TIPO DE INVESTIMENTO -->
+
+        <article id="explicando-investimentos">
+            <div id="lista">
+                <h2>Explicando cada investimento</h2>
+                <ul>
+                    <li><strong>Poupança:</strong> Investimento simples, com rendimento baixo e isento de imposto de renda, ideal para reservas de emergência.</li>
+                    <li><strong>Tesouro Prefixado:</strong> Título público com rentabilidade fixa, onde o investidor sabe o quanto receberá ao final do prazo.</li>
+                    <li><strong>Tesouro Selic:</strong> Título público atrelado à taxa Selic, indicado para investimentos de curto prazo e com baixa volatilidade.</li>
+                    <li><strong>Tesouro IPCA:</strong> Título público que rende conforme a inflação (IPCA) mais uma taxa fixa, protegendo o poder de compra.</li>
+                    <li><strong>CDB (Certificado de Depósito Bancário):</strong> Oferece rendimento fixo ou variável, com proteção do Fundo Garantidor de Créditos (FGC) e costuma ser mais rentável que a poupança.</li>
+                    <li><strong>LC (Letra de Câmbio):</strong> Título de renda fixa emitido por financeiras, com características semelhantes ao CDB, mas voltado para financiamentos.</li>
+                    <li><strong>LCI (Letra de Crédito Imobiliário):</strong> Título isento de imposto de renda, com lastro no setor imobiliário, indicado para quem busca segurança e boa rentabilidade.</li>
+                    <li><strong>LCA (Letra de Crédito do Agronegócio):</strong> Título também isento de imposto de renda, com lastro no setor agrícola, ideal para quem busca rentabilidade e isenção fiscal.</li>
+                </ul>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por Richard Muler</p>
+    </footer>
+</body>
+</html>
