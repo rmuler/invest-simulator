@@ -8,6 +8,7 @@
 
 /* VARIÁVEIS */
 :root {
+    --backgroundblue: #003366;
     --font1: "Baskervville SC", serif;
     --font2: "Poppins", sans-serif;
 }
@@ -25,7 +26,7 @@ html, body {
 }
 
 h2 {
-    color: #003366;
+    color: var(--backgroundblue);
 }
 
 
@@ -34,7 +35,7 @@ header {
     text-align: center;
     padding-bottom: 10px;
     border-radius: 0px 0px 10px 10px;
-    background-color: #003366;
+    background-color: var(--backgroundblue);
     color: white;
 }
 
@@ -86,12 +87,13 @@ main .inputs {
     display: inline-block;
 }
 
-/* LEGEND */
+/* FIELDSET E LEGEND */
 fieldset {
     box-shadow: 1px solid black;
 }
+
 fieldset legend {
-    color: #003366;
+    color: var(--backgroundblue);
     font-weight: bolder;
 }
 
@@ -147,7 +149,7 @@ footer {
     padding: 10px;
     text-align: center;
     color: white;
-    background-color: #003366;
+    background-color: var(--backgroundblue);
     border-radius: 10px 10px 0px 0px;
     font-weight: light;
 }
