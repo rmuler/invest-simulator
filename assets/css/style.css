@@ -106,6 +106,7 @@ main input {
 
 /* TABLE */
 table {
+    min-width: 200px;
     width: 25vw;
     margin: 20px auto; 
 }
