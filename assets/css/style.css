@@ -45,10 +45,6 @@ header h1 {
     font-size: 3.5em;
 }
 
-header h2 {
-    font-size: 1.3em;
-}
-
 /* MAIN */
 main {
     margin: 0px 20px;
@@ -123,6 +119,10 @@ table .resultados {
     text-align: end;
 }
 
+table #resultado-total {
+    text-align: end;
+}
+
 /* ID EXPLICANDO INVESTIMENTOS */
 main #explicando-investimentos{
     margin-bottom: 20px;
@@ -141,9 +141,6 @@ li {
     list-style-type: none;
 }
 
-.orange{
-    color: #FF7043;
-}
 /* FOOTER */
 footer {
     padding: 10px;
