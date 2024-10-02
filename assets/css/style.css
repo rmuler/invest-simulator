@@ -128,6 +128,10 @@ table #resultado-total {
     text-align: end;
 }
 
+#resultado-total,.resultados {
+    color: #003366;
+}
+
 /* ID EXPLICANDO INVESTIMENTOS */
 main #explicando-investimentos{
     margin-bottom: 20px;

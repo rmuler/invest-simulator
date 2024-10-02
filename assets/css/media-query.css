@@ -11,10 +11,6 @@
         display: block;
     }
 
-    #resultado-total,.resultados {
-        color: #003366;
-    }
-
     .introduction > p,li {
         width: 85vw;
     }
