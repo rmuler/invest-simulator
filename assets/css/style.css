@@ -102,6 +102,11 @@ main input {
     font-weight: bolder;
 }
 
+::-webkit-input-placeholder {
+    color: white;
+    text-align: center;
+ }
+
 /* TABLE */
 table {
     max-width: 300px;

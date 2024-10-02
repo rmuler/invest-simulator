@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* CELULAR */
+@media screen and (min-width:600px) and (max-width:768px) {
+
+    table .resultados, table #resultado-total, table td {
+        text-align: center;
+    }
+
+    td,#resultado-total,.resultados {
+        display: block;
+    }
+
+    #resultado-total,.resultados {
+        color: #003366;
+    }
+
+    .introduction > p,li {
+        width: 85vw;
+    }
+}
