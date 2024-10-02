@@ -1,17 +1,48 @@
 @charset "UTF-8";
 
-/* CELULAR */
-@media screen and (min-width:600px) and (max-width:768px) {
-
-    table .resultados, table #resultado-total, table td {
-        text-align: center;
+@media screen and (max-width: 600px) {
+    /* Ajustar a tabela e o espaçamento */
+    table {
+        width: 100%; /* Ocupa a maior parte da tela */
+        margin: 10px auto; /* Menor margem para dispositivos móveis */
+        border: collapse;
     }
 
-    td,#resultado-total,.resultados {
-        display: block;
+    table tr {
+        display: flex;
+        flex-direction: column; /* Colocar nome e valor em bloco */
+        align-items: center;
+        margin-bottom: 10px; /* Adicionar espaçamento entre os blocos */
     }
 
-    .introduction > p,li {
-        width: 85vw;
+    table td {
+        padding: 5px 0; /* Reduzir o padding para evitar espaços excessivos */
+        text-align: center; /* Centralizar o conteúdo */
+        font-size: 1em; /* Ajustar o tamanho da fonte para telas menores */
+    }
+
+    table tr:first-child {
+        font-weight: bold;
+    }
+
+    .resultados {
+        font-weight: bold;
+        font-size: 1.1em; /* Manter a fonte legível e destacada */
+    }
+
+    /* Ajustar margens e espaçamentos gerais */
+    main {
+        margin: 0 10px; /* Reduzir margens gerais */
+    }
+
+    .introduction > p, li {
+        width: 85vw; /* Ocupar mais espaço na tela */
+        margin: 5px auto; /* Reduzir o espaço entre os parágrafos */
+    }
+
+    /* Inputs mais largos e sem grande espaçamento */
+    main .inputs {
+        width: 90vw; /* Inputs mais largos */
+        margin: 10px auto; /* Alinhamento adequado sem grandes margens */
     }
 }
