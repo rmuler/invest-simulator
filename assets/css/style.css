@@ -145,6 +145,7 @@ main #explicando-investimentos{
 
 li {
     width: 55vw;
+    padding-bottom: 10px;
     margin: auto;
     text-align: justify;
     list-style-type: none;
